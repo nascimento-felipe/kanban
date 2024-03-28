@@ -1,27 +1,27 @@
 # Kanban
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+![](./assetsReadme/pic.png)
 
-## Development server
+Olá! Esse projeto é um Kanboard Web, feito com Angular e baseado [nesse vídeo](https://www.youtube.com/watch?v=YGCDAXFWAZo) do canal [DevStackr](https://www.youtube.com/@Devstackr).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Resumo das funcionalidades do projeto:
 
-## Code scaffolding
+- Todas as informações do Board são dinâmicas
+  - ele está pronto para receber dados de uma api, com classes e modelos para os dados, embora os dados ainda estejam sendo passados na mão mesmo, de forma estática.
+- Todas as tasks usam o [CDK](https://v7.material.angular.io/cdk/drag-drop/overview) do Angular, então são todas arrastáveis
+- O css foi feito parte usando a biblioteca [Bulma](https://bulma.io/documentation/start/overview/) e parte na mão
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Coisas que ainda podem ser feitas:
 
-## Build
+- [ ] Adicionar um banco de dados sql pra permanência dos dados
+- [ ] Adicionar formas de editar as informações do Board
+- [ ] Adicionar formas de mudar o board atual, criar novos etc.
+- [ ] Fazer CRUDs (pra quase tudo rs)
+- [ ] Criar páginas para melhor exibição de uma task
+- [ ] Melhorar responsividade
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Parte do código dentro da classe principal:
 
-## Running unit tests
+![](./assetsReadme/cod.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Espero poder concluir parcial ou completamente essas coisas que ficaram faltando.
